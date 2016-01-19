@@ -1,9 +1,19 @@
 {
   "name": "gulp-browserify-babel-demo",
+  "private": true,
   "version": "0.1.0",
   "description": "make the tools play nice",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "auto-import": "^0.1.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
